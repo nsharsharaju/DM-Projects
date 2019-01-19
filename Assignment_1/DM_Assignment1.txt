@@ -1,0 +1,56 @@
+    color           director_name      num_critic_for_reviews    duration     director_facebook_likes actor_3_facebook_likes
+ Length:5043        Length:5043        Min.   :  1.0          Min.   :  7.0   Min.   :    0.0         Min.   :    0.0       
+ Class :character   Class :character   1st Qu.: 50.0          1st Qu.: 93.0   1st Qu.:    7.0         1st Qu.:  133.0       
+                                       Median :110.0          Median :103.0   Median :   49.0         Median :  371.5       
+                                       Mean   :140.2          Mean   :107.2   Mean   :  686.5         Mean   :  645.0       
+                                       3rd Qu.:195.0          3rd Qu.:118.0   3rd Qu.:  194.5         3rd Qu.:  636.0       
+                                       Max.   :813.0          Max.   :511.0   Max.   :23000.0         Max.   :23000.0       
+                                       NA's   :50             NA's   :15      NA's   :104             NA's   :23 
+                                       MODE   : 1             MODE   :90      MODE   : 0              MODE   :1000
+
+           
+ actor_2_name       actor_1_facebook_likes     gross              genres          actor_1_name       movie_title        num_voted_users  
+ Length:5043        Min.   :     0         Min.   :      162   Length:5043        Length:5043        Length:5043        Min.   :      5  
+ Class :character   1st Qu.:   614         1st Qu.:  5340988   Class :character   Class :character   Class :character   1st Qu.:   8594  
+ 		    Median :   988         Median : 25517500   							        Median :  34359  
+                    Mean   :  6560         Mean   : 48468408                                                            Mean   :  83668  
+                    3rd Qu.: 11000         3rd Qu.: 62309438                                                            3rd Qu.:  96309  
+                    Max.   :640000         Max.   :760505847                                                            Max.   :1689764  
+                    NA's   :7              NA's   :884    
+                    MODE   :1000           MODE   :218051260                                                            MODE    :57
+
+                                                                               
+ cast_total_facebook_likes actor_3_name       facenumber_in_poster plot_keywords      movie_imdb_link    num_user_for_reviews
+ Min.   :     0            Length:5043        Min.   : 0.000       Length:5043        Length:5043        Min.   :   1.0      
+ 1st Qu.:  1411            Class :character   1st Qu.: 0.000       Class :character   Class :character   1st Qu.:  65.0      
+ Median :  3090                               Median : 1.000                                             Median : 156.0      
+ Mean   :  9699                               Mean   : 1.371                                             Mean   : 272.8      
+ 3rd Qu.: 13756                               3rd Qu.: 2.000                                             3rd Qu.: 326.0      
+ Max.   :656730                               Max.   :43.000                                             Max.   :5060.0      
+                                              NA's   :13                                                 NA's   :21    
+ MODE   :0                                    MODE   :0                                                  MODE   :1      
+   
+
+
+
+  language           country          content_rating         budget            title_year   actor_2_facebook_likes   imdb_score   
+ Length:5043        Length:5043        Length:5043        Min.   :2.180e+02   Min.   :1916   Min.   :     0         Min.   :1.600  
+ Class :character   Class :character   Class :character   1st Qu.:6.000e+06   1st Qu.:1999   1st Qu.:   281         1st Qu.:5.800  
+ 							  Median :2.000e+07   Median :2005   Median :   595         Median :6.600  
+                                                          Mean   :3.510e+07   Mean   :2002   Mean   :  1652         Mean   :6.442  
+                                                          3rd Qu.:4.400e+07   3rd Qu.:2011   3rd Qu.:   918         3rd Qu.:7.200  
+                                                          Max.   :2.128e+09   Max.   :2016   Max.   :137000         Max.   :9.500  
+                                                          NA's   :496         NA's   :108    NA's   :13                            
+                                                          MODE   : 20000000   MODE   :2009   MODE   :1000           MODE   :6.7
+
+
+  
+aspect_ratio   movie_facebook_likes
+ Min.   : 1.18   Min.   :     0      
+ 1st Qu.: 1.85   1st Qu.:     0      
+ Median : 2.35   Median :   166      
+ Mean   : 2.22   Mean   :  7526      
+ 3rd Qu.: 2.35   3rd Qu.:  3000      
+ Max.   :16.00   Max.   :349000      
+ NA's   :329                         
+ MODE   :2.35    MODE   :0
